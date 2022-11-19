@@ -13,7 +13,7 @@ module.exports = {
       "xl":"121px",
       "xxl":"242px",
       "3xl":"310px",
-      "4xl":"420px",
+      "4xl":"413px",
       "5xl":"560px",
     },
     height: {
@@ -23,7 +23,7 @@ module.exports = {
       "xl":"121px",
       "xxl":"242px",
       "3xl":"310px",
-      "4xl":"420px",
+      "4xl":"413px",
       "5xl":"560px",
     },
     gap: {
@@ -33,7 +33,7 @@ module.exports = {
       "xl":"121px",
       "xxl":"242px",
       "3xl":"310px",
-      "4xl":"420px",
+      "4xl":"413px",
       "5xl":"560px",
     },
 
