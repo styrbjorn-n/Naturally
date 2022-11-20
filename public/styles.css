@@ -546,10 +546,6 @@ video {
   margin-right: 1.25rem;
 }
 
-.mr-\[-1px\] {
-  margin-right: -1px;
-}
-
 .mb-5 {
   margin-bottom: 1.25rem;
 }
@@ -602,8 +598,12 @@ video {
   width: 560px;
 }
 
-.w-xl {
-  width: 121px;
+.w-\[422px\] {
+  width: 422px;
+}
+
+.w-xxl {
+  width: 196px;
 }
 
 .w-3xl {
@@ -676,6 +676,10 @@ video {
 
 .gap-xl {
   gap: 121px;
+}
+
+.gap-\[30px\] {
+  gap: 30px;
 }
 
 .place-self-center {
