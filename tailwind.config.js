@@ -5,8 +5,8 @@ module.exports = {
     "./src/**/*"
 ],
   theme: {
-    extend: {},
-    width: {
+    extend: {
+      width: {
       "sm":"52px",
       "md":"76px",
       "lg":"96px",
@@ -36,7 +36,11 @@ module.exports = {
       "4xl":"413px",
       "5xl":"560px",
     },
-
+    colors: {
+      "primary":"#2A3640",
+      "secondary":"#458963",
+    },
+  },
   },
   plugins: [],
 }
