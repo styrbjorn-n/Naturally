@@ -525,8 +525,12 @@ video {
   bottom: 1.5rem;
 }
 
-.left-\[40\%\] {
-  left: 40%;
+.left-0 {
+  left: 0px;
+}
+
+.right-0 {
+  right: 0px;
 }
 
 .col-span-2 {
@@ -539,6 +543,11 @@ video {
 
 .col-start-3 {
   grid-column-start: 3;
+}
+
+.mx-auto {
+  margin-left: auto;
+  margin-right: auto;
 }
 
 .mb-5 {
