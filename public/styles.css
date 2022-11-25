@@ -529,12 +529,12 @@ video {
   left: 40%;
 }
 
-.left-1\/3 {
-  left: 33.333333%;
-}
-
 .col-span-2 {
   grid-column: span 2 / span 2;
+}
+
+.col-span-3 {
+  grid-column: span 3 / span 3;
 }
 
 .col-start-3 {
@@ -547,6 +547,18 @@ video {
 
 .mt-5 {
   margin-top: 1.25rem;
+}
+
+.mt-24 {
+  margin-top: 6rem;
+}
+
+.mt-8 {
+  margin-top: 2rem;
+}
+
+.mb-4 {
+  margin-bottom: 1rem;
 }
 
 .flex {
@@ -582,8 +594,16 @@ video {
   height: 560px;
 }
 
+.h-60 {
+  height: 15rem;
+}
+
 .w-screen {
   width: 100vw;
+}
+
+.w-full {
+  width: 100%;
 }
 
 .w-md {
@@ -593,14 +613,6 @@ video {
 .w-fit {
   width: -moz-fit-content;
   width: fit-content;
-}
-
-.w-\[206\.67px\] {
-  width: 206.67px;
-}
-
-.w-full {
-  width: 100%;
 }
 
 .w-\[422px\] {
@@ -619,8 +631,12 @@ video {
   width: 618px;
 }
 
-.w-4xl {
-  width: 413px;
+.w-1\/3 {
+  width: 33.333333%;
+}
+
+.w-2\/5 {
+  width: 40%;
 }
 
 .grid-flow-col {
@@ -643,8 +659,16 @@ video {
   grid-template-columns: repeat(2, minmax(0, 1fr));
 }
 
+.grid-cols-5 {
+  grid-template-columns: repeat(5, minmax(0, 1fr));
+}
+
 .grid-rows-1 {
   grid-template-rows: repeat(1, minmax(0, 1fr));
+}
+
+.grid-rows-2 {
+  grid-template-rows: repeat(2, minmax(0, 1fr));
 }
 
 .flex-row-reverse {
@@ -675,6 +699,10 @@ video {
   gap: 30px;
 }
 
+.gap-4 {
+  gap: 1rem;
+}
+
 .place-self-center {
   place-self: center;
 }
@@ -701,6 +729,10 @@ video {
   border-bottom-width: 2px;
 }
 
+.border-b-8 {
+  border-bottom-width: 8px;
+}
+
 .border-primary {
   --tw-border-opacity: 1;
   border-color: rgb(42 54 64 / var(--tw-border-opacity));
@@ -709,6 +741,11 @@ video {
 .border-black {
   --tw-border-opacity: 1;
   border-color: rgb(0 0 0 / var(--tw-border-opacity));
+}
+
+.border-b-secondary {
+  --tw-border-opacity: 1;
+  border-bottom-color: rgb(69 137 99 / var(--tw-border-opacity));
 }
 
 .bg-indigo-900 {
@@ -729,6 +766,11 @@ video {
 .bg-secondary {
   --tw-bg-opacity: 1;
   background-color: rgb(69 137 99 / var(--tw-bg-opacity));
+}
+
+.bg-tertiary {
+  --tw-bg-opacity: 1;
+  background-color: rgb(241 246 233 / var(--tw-bg-opacity));
 }
 
 .bg-\[url\(\'\.\.\/test\.jpg\'\)\] {
@@ -774,8 +816,8 @@ video {
   padding-top: 1.25rem;
 }
 
-.pt-4 {
-  padding-top: 1rem;
+.pt-1 {
+  padding-top: 0.25rem;
 }
 
 .text-center {
