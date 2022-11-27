@@ -6,12 +6,33 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="../public/styles.css">
     <script src="https://kit.fontawesome.com/e4c73d7c79.js" crossorigin="anonymous"></script>
+    <script src="../public/burger.js"></script>
     <title>Naturally</title>
 </head>
 <body class="bg-white">
     <div class="grid grid-cols-1 w-screen">
-        <main class=" px-6 place-self-center bg-white" >
-            <header class="text-xl pt-2 place-content-between">
+        <main class="md:px-6 place-self-center bg-white" >
+            <header class="md:hidden text-xl pt-2 place-content-between">
+                <nav class="grid grid-cols-5 grid-rows-1 w-full place-items-center">
+                        <a class="shadow border-2 rounded-md w-md h-md" href="">Logo</a>
+                        <a class="h-md py-6" href=""><i class="fa-solid fa-cart-shopping fa-xl"></i></a>
+                        <a class="h-md py-6" href=""><i class="fa-regular fa-user fa-xl"></i></i></a>
+                        <a class="h-md py-6" href=""><i class="fa-solid fa-magnifying-glass"></i></a>
+                        <button id="burger" class="p-4 space-y-2" onclick="burgerAction()">
+                            <span class="block w-8 h-0.5 bg-black"></span>
+                            <span class="block w-8 h-0.5 bg-black"></span>
+                            <span class="block w-8 h-0.5 bg-black"></span>
+                        </button>
+                </nav>
+            </header>
+            <div id="burgerContainer" class="hidden md:hidden absolute z-10 bg-white w-full grid gap-5 place-items-center text-xl">
+                <button>SHOES</button>
+                <button>BACKPACKS</button>
+                <button>ACCESSORIES</button>
+                <button>OUTWEAR</button>
+                <button class="pb-4">SWE</button>
+            </div>
+            <header class="hidden md:contents md:h-0 text-xl pt-2 place-content-between ">
                 <nav class="grid grid-cols-3 grid-rows-1 w-full">
                     <div class=" grid grid-flow-col place-items-center col-span-2">
                         <a class="shadow border-2 rounded-md place-self-center w-md h-md pl-15" href="">Logo</a>
@@ -31,22 +52,27 @@
             </header>
             <div class="">
                 <div class="">
-                    <div class="hero h-[660px] bg-[url('../test.jpg')] w-full grid grid-cols-2 place-items-center border-t-2 border-b-2 border-primary">
-                        <div class="pl-12">
-                            <p class="">
-                                <h2 class="text-3xl mb-5 font-extrabold">
-                                    Check out our new limited editin shoes! <br>
-                                    Naturally X ...
-                                </h2>
-                                Our new drop with ... relesed last week! Make <br>
-                                sure you check them out before they all run out
-                            </p>
-                            <p class="mt-5">
-                                Sing up to recive emails about our upcoming relesses!
-                            </p>
-                            <div class="grid grid-flow-col w-[422px] mt-5 gap-[30px]" >
-                                <button class="w-xxl h-fit py-1 font-bold place-self-center bg-primary text-white">Shop now!</button>
-                                <button class="w-xxl h-fit py-1 font-bold place-self-center bg-secondary text-white">Sing up!</button>
+                    <div class="hero md:h-[660px] md:bg-[url('../test.jpg')] md:w-full md:grid md:grid-cols-2 md:place-items-center md:border-t-2 md:border-b-2 md:border-primary">
+                        <img class="md:hidden" src="../test.jpg" alt="">
+                        <div class="mt-5 md:pl-12 md:mt-0">
+                            <h2 class="text-center md:text-left text-3xl mb-5 font-extrabold">
+                                Check out our new limited editin shoes! <br>
+                                Naturally X ...
+                            </h2>
+                            <div class="grid place-items-center">
+                                <div class="">
+                                    <p>
+                                        Our new drop with ... relesed last week! Make <br>
+                                        sure you check them out before they all run out
+                                    </p>
+                                    <p class="mt-5">
+                                        Sing up to recive emails about our upcoming relesses!
+                                    </p>
+                                </div>
+                            </div>
+                            <div class="grid grid-flow-col w-[422px] mt-5 gap-[30px] mx-auto md:mx-0">
+                                <button class="w-xxl h-fit py-1 font-bold bg-primary text-white">Shop now!</button>
+                                <button class="w-xxl h-fit py-1 font-bold bg-secondary text-white">Sing up!</button>
                             </div>
                         </div>
                     </div>
@@ -64,7 +90,7 @@
                                 </div>
                             </div>
                         </div>
-                        <div class="larg_img flex justify-center pt-24">
+                        <div class="larg_img grid place-items-center md:grid-rows-1 md:grid-cols-2 pt-24">
                             <div class="relative">
                                 <div class="absolute bottom-6 left-0 right-0 mx-auto grid place-items-center">
                                     <button class="w-xxl h-fit py-1 font-bold bg-primary text-white">Shop men</button>
