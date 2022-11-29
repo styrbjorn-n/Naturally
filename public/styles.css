@@ -1020,7 +1020,7 @@ video {
   }
 
   .md\:bg-\[url\(\'\.\.\/test\.jpg\'\)\] {
-    background-image: url('../test.jpg');
+    background-image: url('../hero.png');
   }
 
   .md\:px-6 {
