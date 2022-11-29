@@ -756,10 +756,6 @@ video {
   place-self: center;
 }
 
-.overflow-hidden {
-  overflow: hidden;
-}
-
 .overflow-x-auto {
   overflow-x: auto;
 }
@@ -988,6 +984,10 @@ video {
 
   .md\:flex-row-reverse {
     flex-direction: row-reverse;
+  }
+
+  .md\:place-items-start {
+    place-items: start;
   }
 
   .md\:place-items-center {
