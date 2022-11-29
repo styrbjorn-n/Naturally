@@ -734,6 +734,10 @@ video {
   justify-content: center;
 }
 
+.justify-left {
+  justify-content: start;
+}
+
 .gap-5 {
   gap: 1.25rem;
 }
@@ -811,6 +815,11 @@ video {
 .bg-tertiary {
   --tw-bg-opacity: 1;
   background-color: rgb(241 246 233 / var(--tw-bg-opacity));
+}
+
+.button-site {
+  height: 36px;
+  width: 122px;
 }
 
 .p-4 {
