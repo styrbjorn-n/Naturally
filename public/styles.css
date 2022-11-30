@@ -653,6 +653,10 @@ video {
   height: fit-content;
 }
 
+.h-btn {
+  height: 48px;
+}
+
 .h-3xl {
   height: 310px;
 }
@@ -678,6 +682,14 @@ video {
   width: fit-content;
 }
 
+.w-shop-btn {
+  width: 203px;
+}
+
+.w-signup-btn {
+  width: 179px;
+}
+
 .w-sm {
   width: 52px;
 }
@@ -687,7 +699,7 @@ video {
 }
 
 .w-xxl {
-  width: 196px;
+  width: 260px;
 }
 
 .w-1\/2 {
