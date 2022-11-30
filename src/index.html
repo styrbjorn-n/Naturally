@@ -19,23 +19,27 @@
                         <a class="h-md py-6 lg:hidden" href=""><i class="fa-solid fa-cart-shopping fa-xl"></i></a>
                         <a class="h-md py-6 lg:hidden" href=""><i class="fa-regular fa-user fa-xl"></i></i></a>
                         <a class="h-md py-6 lg:hidden" href=""><i class="fa-solid fa-magnifying-glass"></i></a>
-                        <button id="burger lg:hidden" class="p-4 space-y-2" onclick="burgerAction()">
+                        <button id="burger" class="p-4 space-y-2 lg:hidden" onclick="burgerAction()">
                             <span class="block w-8 h-0.5 bg-black lg:hidden"></span>
                             <span class="block w-8 h-0.5 bg-black lg:hidden"></span>
                             <span class="block w-8 h-0.5 bg-black lg:hidden"></span> 
                         </button>
-                        <div class="hidden lg:contents grid grid-flow-col place-items-center col-span-2 col-start-1 row-start-1">
-                            <a class="place-self-center w-md h-md pl-15" href=""><img src="../public/images/icon transparent.png" alt=""></a>
-                            <a class="w-fit" href="">Shoes</a>
-                            <a class="w-fit" href="">Accessories</a>
-                            <a class="w-fit" href="">Backpacks</a>
-                            <a class="w-fit truncate" href="">Limited edition</a>
+                        <div class="hidden lg:contents">
+                            <div class="w-full grid grid-flow-col place-items-center col-start-1 row-start-1 col-span-2">
+                                <a class="place-self-center w-md h-md pl-15" href=""><img src="../public/images/icon transparent.png" alt=""></a>
+                                <a class="w-fit" href="">Shoes</a>
+                                <a class="w-fit" href="">Accessories</a>
+                                <a class="w-fit" href="">Backpacks</a>
+                                <a class="w-fit truncate" href="">Limited edition</a>
+                            </div>
                         </div>
-                        <div class="hidden lg:contents grid col-start-3 grid-cols-4 place-self-center place-items-center h-md w-full">
-                            <a href=""><i class="fa-solid fa-cart-shopping fa-xl"></i></a>
-                            <a href=""><i class="fa-regular fa-user fa-xl"></i></i></a>
-                            <div class="bg-primary col-span-2 h-md w-full grid place-content-center">
-                                <a class="text-white w-fit" href="">SEARCH <i class="fa-solid fa-magnifying-glass"></i></a>
+                        <div class="hidden lg:contents">
+                            <div class="grid col-start-3 grid-cols-4 place-self-center place-items-center h-md w-full">
+                                <a href=""><i class="fa-solid fa-cart-shopping fa-xl"></i></a>
+                                <a href=""><i class="fa-regular fa-user fa-xl"></i></i></a>
+                                <div class="bg-primary col-span-2 h-md w-full grid place-content-center">
+                                    <a class="text-white w-fit" href="">SEARCH <i class="fa-solid fa-magnifying-glass"></i></a>
+                                </div>
                             </div>
                         </div>
                 </nav>
@@ -47,24 +51,6 @@
                 <button>OUTERWEAR</button>
                 <button class="pb-4">SWE</button>
             </div>
-            <header class="hidden md:contents md:h-0 text-xl pt-2 place-content-between">
-                <nav class="grid grid-cols-3 grid-rows-1 w-full">
-                    <div class=" grid grid-flow-col place-items-center col-span-2">
-                        <a class="place-self-center w-md h-md pl-15" href=""><img src="../public/images/icon transparent.png" alt=""></a>
-                        <a class="w-fit" href="">Shoes</a>
-                        <a class="w-fit" href="">Accessories</a>
-                        <a class="w-fit" href="">Backpacks</a>
-                        <a class="w-fit truncate" href="">Limited edition</a>
-                    </div>
-                    <div class="grid col-start-3 grid-cols-4 place-self-center place-items-center h-md w-full">
-                        <a href=""><i class="fa-solid fa-cart-shopping fa-xl"></i></a>
-                        <a href=""><i class="fa-regular fa-user fa-xl"></i></i></a>
-                        <div class="bg-primary col-span-2 h-md w-full grid place-content-center">
-                            <a class="text-white w-fit" href="">SEARCH <i class="fa-solid fa-magnifying-glass"></i></a>
-                        </div>
-                    </div>
-                </nav>
-            </header>
             <div>
                 <div>
                     <div class="hero md:h-[660px] md:w-full md:border-t-2 md:border-b-2 md:border-primary md:relative">
