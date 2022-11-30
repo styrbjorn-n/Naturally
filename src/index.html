@@ -11,11 +11,11 @@
     <title>Naturally</title>
 </head>
 <body class="bg-white text-black">
-    <div class="grid grid-cols-1">
+    <div class="grid grid-cols-1 w-screen">
         <main class="md:px-6 place-self-center bg-white" >
             <header class="text-xl place-content-between">
                 <nav class="grid grid-cols-5 grid-rows-1 w-full place-items-center lg:grid-cols-3 lg:grid-rows-1">
-                        <a class="w-sm h-sm sm:w-md sm:h-md lg:hidden" href=""><img src="../public/images/icon transparent.png" alt="Logo"></a>
+                        <a class="w-md h-md lg:hidden" href=""><img src="../public/images/icon transparent.png" alt="Logo"></a>
                         <a class="h-md py-6 lg:hidden" href=""><i class="fa-solid fa-cart-shopping fa-xl"></i></a>
                         <a class="h-md py-6 lg:hidden" href=""><i class="fa-regular fa-user fa-xl"></i></i></a>
                         <a class="h-md py-6 lg:hidden" href=""><i class="fa-solid fa-magnifying-glass"></i></a>
@@ -53,29 +53,31 @@
                 <button class="pb-4"><img class="h-sm w-sm rounded-3xl" src="../public/images/swedish_flag.png" alt="SWE"></button>
             </div>
             <div>
-                <div class="hero md:h-[660px] grid place-items-center md:border-t-2 md:border-b-2 md:border-primary md:relative">
-                    <img class="w-full h-full max-h-[660px]" src="../public/images/hero.png" alt="">
-                    <div class="mt-5 md:pl-12 w-11/12 sm:w-full md:absolute md:bottom-0 md:top-0 md:mt-60">
-                        <h2 class="text-center md:text-left text-3xl mb-5 font-extrabold">
-                            Check out our new<br>
-                            limited edition shoes! <br>
-                            Naturally X Onitsuka <br>
-                            Tiger
-                        </h2>
-                        <div class="grid place-items-center mx-2 md:mx md:place-items-start w-fit"> 
-                            <div class="w-fit">
-                                <p class="w-fit">
-                                    Our new drop with Onitsuka Tiger released last week! Make <br>
-                                    sure you check them out before they all run out!
-                                </p>
-                                <p class="mt-5">
-                                    Sign up to recieve emails about our upcoming releases!
-                                </p>
+                <div>
+                    <div class="hero md:h-[660px] md:border-t-2 md:border-b-2 md:border-primary md:relative">
+                        <img class="w-full h-full" src="../public/images/hero.png" alt="">
+                        <div class="mt-5 md:pl-12 md:absolute md:bottom-0 md:top-0 md:mt-60">
+                            <h2 class="text-center md:text-left text-3xl mb-5 font-extrabold">
+                                Check out our new<br>
+                                limited edition shoes! <br>
+                                Naturally X Onitsuka <br>
+                                Tiger
+                            </h2>
+                            <div class="grid place-items-center mx-2 md:mx-0 md:place-items-start">
+                                <div class="">
+                                    <p>
+                                        Our new drop with Onitsuka Tiger released last week! Make <br>
+                                        sure you check them out before they all run out!
+                                    </p>
+                                    <p class="mt-5">
+                                        Sign up to recieve emails about our upcoming releases!
+                                    </p>
+                                </div>
                             </div>
-                        </div>
-                        <div class="grid grid-rows-1 grid-cols-2 max-w-md lg:max-w-sm mt-5 gap-[15px] md:gap-[30px] place-items-center lg:place-items-start">
-                            <button class="w-xl sm:w-xxl h-fit py-1 font-bold bg-primary text-white">Shop now!</button>
-                            <button class="w-xl sm:w-xxl h-fit py-1 font-bold bg-secondary text-white">Sign up!</button>
+                            <div class="grid grid-flow-col w-[422px] mt-5 gap-[30px] md:gap-[15px] mx-auto md:mx-0">
+                                <button class="w-shop-btn h-btn py-1 font-bold bg-primary text-white">Shop now!</button>
+                                <button class="w-signup-btn h-btn py-1 font-bold bg-secondary text-white">Sign up!</button>
+                            </div>
                         </div>
                     </div>
                 </div>
@@ -119,11 +121,11 @@
                                 </div>
                             </div>
                         </div>
-                        <div class="christmans_gifts pt-24 md:flex md:justify-center">
+                        <div class="pt-24 md:flex md:justify-center">
                             <div class="md:flex md:flex-row-reverse mx-6">
                                 <div class="h-3xl md:w-1/3 md:h-5xl bg-tertiary">
                                     <div class="grid place-items-center">
-                                        <h2 class="text-3xl font-bold  pt-10">Christmas gifts <br>
+                                        <h2 class="text-3xl font-bold">Christmas gifts <br>
                                         under £20</h2>
                                         <p class="pt-5">
                                         Our new winters collection has <br>
@@ -157,7 +159,7 @@
                 </div>
             </div>
             <footer>
-                <div class="bg-primary w-full h-fit mt-24 text-white text-xl md:h-60 text-center">
+                <div class="bg-primary w-full h-fit text-white text-xl md:h-60 text-center">
                     <div class="grid grid-cols-3 grid-rows-4 mx-5 md:mx-0 md:grid-cols-6 md:grid-rows-1 md:place-items-center">
                         <a class="w-sm h-sm col-start-2 row-start-4 place-self-center md:col-start-1 md:row-start-1" href=""><img src="../public/images/icon transparent.png" alt="Logo"></a>
                         <a class="col-start-1 md:col-start-auto text-left" href="">Payment info</a>
