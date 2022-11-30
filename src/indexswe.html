@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="sv">
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
@@ -13,57 +13,58 @@
 <body class="bg-white text-black">
     <div class="grid grid-cols-1 w-screen">
         <main class="md:px-6 place-self-center bg-white" >
-            <header class="md:hidden text-xl pt-2 place-content-between">
-                <nav class="grid grid-cols-5 grid-rows-1 w-full place-items-center">
-                        <a class=" w-md h-md" href=""><img src="../public/images/icon transparent.png" alt="Loga"></a>
-                        <a class="h-md py-6" href=""><i class="fa-solid fa-cart-shopping fa-xl"></i></a>
-                        <a class="h-md py-6" href=""><i class="fa-regular fa-user fa-xl"></i></i></a>
-                        <a class="h-md py-6" href=""><i class="fa-solid fa-magnifying-glass"></i></a>
-                        <button id="burger" class="p-4 space-y-2" onclick="burgerAction()">
-                            <span class="block w-8 h-0.5 bg-black"></span>
-                            <span class="block w-8 h-0.5 bg-black"></span>
-                            <span class="block w-8 h-0.5 bg-black"></span> 
+            <header class="text-xl pt-2 place-content-between">
+                <nav class="grid grid-cols-5 grid-rows-1 w-full place-items-center lg:grid-cols-3 lg:grid-rows-1">
+                        <a class="w-md h-md lg:hidden" href=""><img src="../public/images/icon transparent.png" alt="Logo"></a>
+                        <a class="h-md py-6 lg:hidden" href=""><i class="fa-solid fa-cart-shopping fa-xl"></i></a>
+                        <a class="h-md py-6 lg:hidden" href=""><i class="fa-regular fa-user fa-xl"></i></i></a>
+                        <a class="h-md py-6 lg:hidden" href=""><i class="fa-solid fa-magnifying-glass"></i></a>
+                        <button id="burger" class="p-4 space-y-2 lg:hidden" onclick="burgerAction()">
+                            <span class="block w-8 h-0.5 bg-black lg:hidden"></span>
+                            <span class="block w-8 h-0.5 bg-black lg:hidden"></span>
+                            <span class="block w-8 h-0.5 bg-black lg:hidden"></span> 
                         </button>
+                        <div class="hidden lg:contents">
+                            <div class="w-full grid grid-flow-col place-items-center col-start-1 row-start-1 col-span-2">
+                                <a class="place-self-center w-md h-md pl-15" href=""><img src="../public/images/icon transparent.png" alt=""></a>
+                                <a class="w-fit" href="">Skor</a>
+                                <a class="w-fit" href="">Accessoarer</a>
+                                <a class="w-fit" href="">Ryggsäckar</a>
+                                <a class="w-fit truncate" href="">Limited edition</a>
+                            </div>
+                        </div>
+                        <div class="hidden lg:contents">
+                            <div class="grid col-start-3 grid-cols-4 place-self-center place-items-center h-md w-full">
+                                <a href=""><i class="fa-solid fa-cart-shopping fa-xl"></i></a>
+                                <a href=""><i class="fa-regular fa-user fa-xl"></i></i></a>
+                                <div class="bg-primary col-span-2 h-md w-full grid place-content-center">
+                                    <a class="text-white w-fit" href="">SÖK <i class="fa-solid fa-magnifying-glass"></i></a>
+                                </div>
+                            </div>
+                        </div>
                 </nav>
             </header>
-            <div id="burgerContainer" class="hidden md:hidden absolute z-10 bg-white w-full grid gap-5 place-items-center text-xl font-semibold">
+            <div id="burgerContainer" class="hidden lg:hidden absolute z-10 bg-white w-full grid gap-5 place-items-center text-xl font-semibold">
                 <button>SKOR</button>
                 <button>RYGGSÄCKAR</button>
                 <button>ACCESSOARER</button>
                 <button>YTTERKLÄDER</button>
                 <button class="pb-4">ENG</button>
             </div>
-            <header class="hidden md:contents md:h-0 text-xl pt-2 place-content-between ">
-                <nav class="grid grid-cols-3 grid-rows-1 w-full">
-                    <div class=" grid grid-flow-col place-items-center col-span-2">
-                        <a class="place-self-center w-md h-md pl-15" href=""><img src="../public/images/icon transparent.png" alt=""></a>
-                        <a class="w-fit" href="">Skor</a>
-                        <a class="w-fit" href="">Accessoarer</a>
-                        <a class="w-fit" href="">Ryggsäckar</a>
-                        <a class="w-fit truncate" href="">Limited edition</a>
-                    </div>
-                    <div class="grid col-start-3 grid-cols-4 place-self-center place-items-center h-md w-full">
-                        <a href=""><i class="fa-solid fa-cart-shopping fa-xl"></i></a>
-                        <a href=""><i class="fa-regular fa-user fa-xl"></i></i></a>
-                        <div class="bg-primary col-span-2 h-md w-full grid place-content-center">
-                            <a class="text-white w-fit" href="">SÖK <i class="fa-solid fa-magnifying-glass"></i></a>
-                        </div>
-                    </div>
-                </nav>
-            </header>
             <div>
                 <div>
                     <div class="hero md:h-[660px] md:w-full md:border-t-2 md:border-b-2 md:border-primary md:relative">
-                        <img class="w-full h-full" src="../hero.png" alt="">
+                        <img class="w-full h-full" src="../public/images/hero.png" alt="">
                         <div class="mt-5 md:pl-12 md:absolute md:bottom-0 md:top-0 md:mt-60">
                             <h2 class="text-center md:text-left text-3xl mb-5 font-extrabold">
                                 Kolla in våra nya skor i limted edition! <br>
-                                Naturally X ....
+                                Naturally X Onitsuka<br>
+                                Tiger
                             </h2>
                             <div class="grid place-items-center md:place-items-start">
                                 <div class="">
                                     <p>
-                                        Vårt nya släpp med ... lanserades förra veckan! Se till att<br>
+                                        Vårt nya släpp med Onitsuka Tiger lanserades förra veckan! Se till att<br>
                                         spana in dem innan de tar slut!
                                     </p>
                                     <p class="mt-5">
@@ -72,8 +73,8 @@
                                 </div>
                             </div>
                             <div class="grid grid-flow-col w-[422px] mt-5 gap-[30px] mx-auto md:mx-0">
-                                <button class="w-xxl h-fit py-1 font-bold bg-primary text-white">Shop now!</button>
-                                <button class="w-xxl h-fit py-1 font-bold bg-secondary text-white">Sign up!</button>
+                                <button class="w-xxl h-fit py-1 font-bold bg-primary text-white">Handla nu!</button>
+                                <button class="w-xxl h-fit py-1 font-bold bg-secondary text-white">Registrera dig!</button>
                             </div>
                         </div>
                     </div>
@@ -93,21 +94,21 @@
                         </div>
                         <div class="larg_img grid place-items-center pt-24 md:grid-rows-1 md:grid-cols-2">
                             <div class="relative">
-                                <img class="w-full" src="../backpack_final.png" alt="A man with a black backpack">
+                                <img class="w-full" src="../public/images/backpack_model.png" alt="A man with a black backpack">
                                 <div class="grid place-items-center absolute left-0 right-0 mx-auto bottom-6 md:mt-6">
-                                    <button class="w-xxl h-fit py-1 font-bold bg-primary text-white">Handla man</button>
+                                    <button class="w-xxl h-fit py-1 font-bold bg-primary text-white">Handla för herr</button>
                                 </div>
                             </div>
                             <div class="relative">
-                                <img class="w-full aspect-square" src="../woman.png" alt="A woman in a gray poncho">
+                                <img class="w-full aspect-square" src="../public/images/woman.png" alt="A woman in a gray poncho">
                                 <div class="grid place-items-center absolute left-0 right-0 mx-auto bottom-6 md:mt-6">
-                                    <button class="w-xxl h-fit py-1 font-bold bg-primary text-white">Handla kvinna</button>
+                                    <button class="w-xxl h-fit py-1 font-bold bg-primary text-white">Handla för dam</button>
                                 </div>
                             </div>
                         </div>
                         <div class="info mt-24 flex justify-center">
                             <div class=" py-3 w-full bg-tertiary border-b-8 border-b-secondary">
-                                <h2 class="text-3xl font-bold text-center">Naturally produkt. Naturligtvis!</h2>
+                                <h2 class="text-3xl font-bold text-center">Naturally. Naturligtvis!</h2>
                                 <div class="flex justify-center pt-6">  
                                     <p class="md:pl-12">
                                         Om du tänker dig en naturlig känsla som ger av framtiden så tänker du rätt. <br>
@@ -132,13 +133,13 @@
                                         <button class="w-xxl h-fit pt-1 mt-8 font-bold place-self-center bg-primary text-white">Handla nu!</button>
                                     </div>
                                 </div>
-                                <img class="font-bold h-3xl w-full md:h-5xl md:w-1/3" src="../wristband.png" alt="A wristband">
-                                <img class="font-bold h-3xl w-full md:h-5xl md:w-1/3" src="../enviroment_clockv3.png" alt="Clock in a box">
+                                <img class="font-bold h-3xl w-full md:h-5xl md:w-1/3" src="../public/images/wristband.png" alt="A wristband">
+                                <img class="font-bold h-3xl w-full md:h-5xl md:w-1/3" src="../public/images/enviroment_clockv3.png" alt="Clock in a box">
                             </div>
                         </div>
                         <div class="sing_up pt-24 flex justify-start">
                             <div class="w-full py-3 bg-tertiary border-b-8 border-b-secondary">
-                                <h2 class="text-3xl font-bold text-center">Sign up here!</h2>
+                                <h2 class="text-3xl font-bold text-center">Registrera dig här!</h2>
                                 <div class="flex justify-center pt-6">
                                     <p>
                                         Registrera dig för att få 10% rabatt på ditt första köp hos oss! Du kommer också bli kontaktad när spännande nyheter och fina erbjudanden finns inne hos oss.
@@ -148,7 +149,7 @@
                                     <form class="hidden md:contents" action="">
                                         <input class="w-2/5 mt-5 mb-4" type="text" id="email" placeholder="carlsmith@gmail.com">
                                     </form>
-                                    <button class="w-xxl h-fit py-1 font-bold place-self-center bg-secondary text-white">Sign up!</button>
+                                    <button class="w-xxl h-fit py-1 font-bold place-self-center bg-secondary text-white">Registrera dig!</button>
                                 </div>
                             </div>
                         </div>
@@ -172,7 +173,7 @@
                     </div>
                 </div>
                 <div class="bg-white flex justify-center md:hidden">
-                    <button class="text-3xl font-semibold" onclick="backToTop()">TILLBAKA TILL TOPPEN</button>
+                    <button class="text-3xl font-semibold" onclick="backToTop()">TILL STARTSIDAN</button>
                 </div>
             </footer>
         </main>

@@ -790,12 +790,17 @@ video {
   white-space: nowrap;
 }
 
+<<<<<<< Updated upstream
 .rounded-3xl {
   border-radius: 1.5rem;
 }
 
 .border-b-8 {
   border-bottom-width: 8px;
+=======
+.border-b-12 {
+  border-bottom-width: 12px;
+>>>>>>> Stashed changes
 }
 
 .border-black {
