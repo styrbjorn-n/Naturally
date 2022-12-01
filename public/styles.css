@@ -561,6 +561,10 @@ video {
   grid-row-start: 1;
 }
 
+.row-start-3 {
+  grid-row-start: 3;
+}
+
 .row-start-2 {
   grid-row-start: 2;
 }
@@ -670,18 +674,6 @@ video {
   height: 310px;
 }
 
-.w-screen {
-  width: 100vw;
-}
-
-.h-btn {
-  height: 48px;
-}
-
-.max-h-\[660px\] {
-  max-height: 660px;
-}
-
 .w-full {
   width: 100%;
 }
@@ -707,8 +699,8 @@ video {
   width: 50%;
 }
 
-.w-1\/3 {
-  width: 33.333333%;
+.w-2\/3 {
+  width: 66.666667%;
 }
 
 .w-\[422px\] {
@@ -729,26 +721,6 @@ video {
 
 .w-screen {
   width: 100vw;
-}
-
-.w-\[422px\] {
-  width: 422px;
-}
-
-.w-signup-btn {
-  width: 179px;
-}
-
-.w-shop-btn {
-  width: 203px;
-}
-
-.max-w-\[2560px\] {
-  max-width: 2560px;
-}
-
-.max-w-md {
-  max-width: 28rem;
 }
 
 .grid-flow-col {
@@ -777,6 +749,10 @@ video {
 
 .grid-rows-1 {
   grid-template-rows: repeat(1, minmax(0, 1fr));
+}
+
+.grid-rows-3 {
+  grid-template-rows: repeat(3, minmax(0, 1fr));
 }
 
 .grid-rows-4 {
@@ -964,14 +940,14 @@ video {
   line-height: 1.75rem;
 }
 
-.text-3xl {
-  font-size: 1.875rem;
-  line-height: 2.25rem;
-}
-
 .text-2xl {
   font-size: 1.5rem;
   line-height: 2rem;
+}
+
+.text-3xl {
+  font-size: 1.875rem;
+  line-height: 2.25rem;
 }
 
 .font-semibold {
@@ -988,12 +964,12 @@ video {
 
 .text-black {
   --tw-text-opacity: 1;
-  color: #2A3640;
+  color: rgb(0 0 0 / var(--tw-text-opacity));
 }
 
 .text-white {
   --tw-text-opacity: 1;
-  color: #F1F6E9;
+  color: rgb(255 255 255 / var(--tw-text-opacity));
 }
 
 @media (min-width: 768px) {
