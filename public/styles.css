@@ -593,10 +593,6 @@ video {
   margin-right: 1.25rem;
 }
 
-.mr-5 {
-  margin-right: 1.25rem;
-}
-
 .mr-10 {
   margin-right: 2.5rem;
 }
@@ -661,6 +657,10 @@ video {
   height: 0px;
 }
 
+.h-5 {
+  height: 1.25rem;
+}
+
 .h-full {
   height: 100%;
 }
@@ -699,16 +699,16 @@ video {
   width: fit-content;
 }
 
+.w-1\/2 {
+  width: 50%;
+}
+
 .w-11\/12 {
   width: 91.666667%;
 }
 
 .w-xl {
   width: 121px;
-}
-
-.w-1\/2 {
-  width: 50%;
 }
 
 .w-xxl {
@@ -1162,6 +1162,10 @@ video {
 }
 
 @media (min-width: 1024px) {
+  .lg\:grid {
+    display: grid;
+  }
+
   .lg\:contents {
     display: contents;
   }
