@@ -782,6 +782,7 @@ video {
 
 .static:hover {
   opacity: 0;
+  transition: 0.5s;
 }
 
 .flex-col {
