@@ -1,0 +1,71 @@
+.w-signup-btn {
+    width: 179px;
+  }
+  
+  .w-shop-btn {
+    width: 203px;
+  }
+  
+  .h-btn {
+    height: 48px;
+  }
+  
+  .text-black {
+    --tw-text-opacity: 1;
+    color: #2A3640;
+  }
+  
+  .text-white {
+    --tw-text-opacity: 1;
+    color: #F1F6E9;
+  }
+  
+  .font-h {
+    font-weight: 800;
+    font-family: "Basement Grotesque";
+    font-size: 32px;
+    line-height: 44px;
+  }
+  
+  .font-p {
+    font-family: "Aileron Regular";
+    font-size: 20px;
+    line-height: 28px;
+  }
+  
+  .font-p-bold {
+    font-family: "Aileron Bold";
+    font-size: 20px;
+    line-height: 28px;
+  }
+  
+  .font-btn {
+    font-family: "Aileron Bold";
+    font-size: 20px;
+    line-height: 24px;
+  }
+  
+  @font-face {
+    font-family: "Aileron Regular";
+    src: url("/public/fonts/Aileron.woff") format('woff');
+  }
+  
+  @font-face {
+    font-family: "Aileron Light";
+    src: url("/public/fonts/Aileron\ Light.woff") format('woff');
+  }
+  
+  @font-face {
+    font-family: "Aileron Bold";
+    src: url("/public/fonts/Aileron\ Bold.woff") format('woff');
+  }
+  
+  @font-face {
+    font-family: "Basement Grotesque";
+    src: url("/public/fonts/BasementGrotesque-Black_v1.202.woff") format('woff');
+  }
+  
+  @font-face {
+    font-family: "Hansief";
+    src: url("/public/fonts/Hansief.woff") format('woff');
+  }
