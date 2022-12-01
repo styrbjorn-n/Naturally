@@ -677,10 +677,6 @@ video {
   height: 52px;
 }
 
-.h-40 {
-  height: 40px;
-}
-
 .h-fit {
   height: -moz-fit-content;
   height: fit-content;
@@ -692,6 +688,10 @@ video {
 
 .h-3xl {
   height: 310px;
+}
+
+.h-10 {
+  height: 2.5rem;
 }
 
 .w-full {
