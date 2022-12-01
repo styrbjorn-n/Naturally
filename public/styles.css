@@ -775,6 +775,15 @@ video {
   grid-template-rows: repeat(2, minmax(0, 1fr));
 }
 
+.static {
+  position: absolute;
+  background-color: white;
+}
+
+.static:hover {
+  opacity: 0;
+}
+
 .flex-col {
   flex-direction: column;
 }
