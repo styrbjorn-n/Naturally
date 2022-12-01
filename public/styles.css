@@ -641,6 +641,11 @@ video {
   margin-top: 6rem;
 }
 
+.mtl-products {
+  margin-top: 2rem;
+  margin-left: 2rem;
+}
+
 .block {
   display: block;
 }
@@ -659,6 +664,16 @@ video {
 
 .aspect-square {
   aspect-ratio: 1 / 1;
+}
+
+.gif:hover {
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  height: 100%;
+  width: 100%;
 }
 
 .h-md {
