@@ -653,6 +653,10 @@ video {
   height: 100%;
 }
 
+.h-auto {
+  height: auto;
+}
+
 .h-3xl {
   height: 310px;
 }
@@ -960,12 +964,54 @@ video {
   font-weight: 600;
 }
 
-.font-extrabold {
+.font-h {
   font-weight: 800;
+  font-family: "Basement Grotesque";
+  font-size: 32px;
+  line-height: 44px;
 }
 
-.font-bold {
-  font-weight: 700;
+.font-p {
+  font-family: "Aileron Regular";
+  font-size: 20px;
+  line-height: 28px;
+}
+
+.font-p-bold {
+  font-family: "Aileron Bold";
+  font-size: 20px;
+  line-height: 28px;
+}
+
+.font-btn {
+  font-family: "Aileron Bold";
+  font-size: 20px;
+  line-height: 24px;
+}
+
+@font-face {
+  font-family: "Aileron Regular";
+  src: url("/public/fonts/Aileron.woff") format('woff');
+}
+
+@font-face {
+  font-family: "Aileron Light";
+  src: url("/public/fonts/Aileron\ Light.woff") format('woff');
+}
+
+@font-face {
+  font-family: "Aileron Bold";
+  src: url("/public/fonts/Aileron\ Bold.woff") format('woff');
+}
+
+@font-face {
+  font-family: "Basement Grotesque";
+  src: url("/public/fonts/BasementGrotesque-Black_v1.202.woff") format('woff');
+}
+
+@font-face {
+  font-family: "Hansief";
+  src: url("/public/fonts/Hansief.woff") format('woff');
 }
 
 .text-black {
