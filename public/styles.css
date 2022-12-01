@@ -513,6 +513,10 @@ video {
   --tw-backdrop-sepia:  ;
 }
 
+.static {
+  position: static;
+}
+
 .absolute {
   position: absolute;
 }
@@ -773,16 +777,6 @@ video {
 
 .grid-rows-2 {
   grid-template-rows: repeat(2, minmax(0, 1fr));
-}
-
-.static {
-  position: absolute;
-  background-color: white;
-}
-
-.static:hover {
-  opacity: 0;
-  transition: 0.5s;
 }
 
 .flex-col {
