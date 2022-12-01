@@ -78,7 +78,17 @@
     margin-top: 2rem;
     margin-left: 2rem;
   }
-  
+
   .bottom-drop {
     bottom: 7.3rem;
+  }
+  
+  .static {
+    position: absolute;
+    background-color: white;
+  }
+  
+  .static:hover {
+    opacity: 0;
+    transition: 0.5s;
   }
