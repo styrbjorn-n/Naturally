@@ -561,10 +561,6 @@ video {
   grid-row-start: 1;
 }
 
-.row-start-3 {
-  grid-row-start: 3;
-}
-
 .row-start-2 {
   grid-row-start: 2;
 }
@@ -578,14 +574,14 @@ video {
   margin-right: 0.5rem;
 }
 
-.mx-6 {
-  margin-left: 1.5rem;
-  margin-right: 1.5rem;
-}
-
 .mx-auto {
   margin-left: auto;
   margin-right: auto;
+}
+
+.mx-6 {
+  margin-left: 1.5rem;
+  margin-right: 1.5rem;
 }
 
 .mx-5 {
@@ -641,10 +637,6 @@ video {
   aspect-ratio: 1 / 1;
 }
 
-.h-sm {
-  height: 52px;
-}
-
 .h-md {
   height: 76px;
 }
@@ -657,25 +649,29 @@ video {
   height: 0px;
 }
 
+.h-sm {
+  height: 52px;
+}
+
 .h-5 {
   height: 1.25rem;
+}
+
+.h-fit {
+  height: -moz-fit-content;
+  height: fit-content;
 }
 
 .h-full {
   height: 100%;
 }
 
-.h-auto {
-  height: auto;
-}
-
 .h-3xl {
   height: 310px;
 }
 
-.h-fit {
-  height: -moz-fit-content;
-  height: fit-content;
+.w-screen {
+  width: 100vw;
 }
 
 .h-btn {
@@ -690,16 +686,12 @@ video {
   width: 100%;
 }
 
-.w-sm {
-  width: 52px;
+.w-md {
+  width: 76px;
 }
 
 .w-8 {
   width: 2rem;
-}
-
-.w-md {
-  width: 76px;
 }
 
 .w-fit {
@@ -707,16 +699,20 @@ video {
   width: fit-content;
 }
 
+.w-sm {
+  width: 52px;
+}
+
 .w-1\/2 {
   width: 50%;
 }
 
-.w-11\/12 {
-  width: 91.666667%;
+.w-1\/3 {
+  width: 33.333333%;
 }
 
-.w-xl {
-  width: 121px;
+.w-\[422px\] {
+  width: 422px;
 }
 
 .w-xxl {
@@ -783,10 +779,6 @@ video {
   grid-template-rows: repeat(1, minmax(0, 1fr));
 }
 
-.grid-rows-3 {
-  grid-template-rows: repeat(3, minmax(0, 1fr));
-}
-
 .grid-rows-4 {
   grid-template-rows: repeat(4, minmax(0, 1fr));
 }
@@ -823,16 +815,12 @@ video {
   gap: 1.25rem;
 }
 
-.gap-\[15px\] {
-  gap: 15px;
+.gap-\[30px\] {
+  gap: 30px;
 }
 
 .gap-4 {
   gap: 1rem;
-}
-
-.gap-\[30px\] {
-  gap: 30px;
 }
 
 .space-y-2 > :not([hidden]) ~ :not([hidden]) {
@@ -859,6 +847,10 @@ video {
   border-radius: 1.5rem;
 }
 
+.border-r-2 {
+  border-right-width: 2px;
+}
+
 .border-b-8 {
   border-bottom-width: 8px;
 }
@@ -866,6 +858,11 @@ video {
 .border-black {
   --tw-border-opacity: 1;
   border-color: rgb(0 0 0 / var(--tw-border-opacity));
+}
+
+.border-r-primary {
+  --tw-border-opacity: 1;
+  border-right-color: rgb(42 54 64 / var(--tw-border-opacity));
 }
 
 .border-b-secondary {
@@ -905,6 +902,11 @@ video {
 .py-6 {
   padding-top: 1.5rem;
   padding-bottom: 1.5rem;
+}
+
+.px-6 {
+  padding-left: 1.5rem;
+  padding-right: 1.5rem;
 }
 
 .py-1 {
@@ -976,54 +978,12 @@ video {
   font-weight: 600;
 }
 
-.font-h {
+.font-bold {
+  font-weight: 700;
+}
+
+.font-extrabold {
   font-weight: 800;
-  font-family: "Basement Grotesque";
-  font-size: 32px;
-  line-height: 44px;
-}
-
-.font-p {
-  font-family: "Aileron Regular";
-  font-size: 20px;
-  line-height: 28px;
-}
-
-.font-p-bold {
-  font-family: "Aileron Bold";
-  font-size: 20px;
-  line-height: 28px;
-}
-
-.font-btn {
-  font-family: "Aileron Bold";
-  font-size: 20px;
-  line-height: 24px;
-}
-
-@font-face {
-  font-family: "Aileron Regular";
-  src: url("/public/fonts/Aileron.woff") format('woff');
-}
-
-@font-face {
-  font-family: "Aileron Light";
-  src: url("/public/fonts/Aileron\ Light.woff") format('woff');
-}
-
-@font-face {
-  font-family: "Aileron Bold";
-  src: url("/public/fonts/Aileron\ Bold.woff") format('woff');
-}
-
-@font-face {
-  font-family: "Basement Grotesque";
-  src: url("/public/fonts/BasementGrotesque-Black_v1.202.woff") format('woff');
-}
-
-@font-face {
-  font-family: "Hansief";
-  src: url("/public/fonts/Hansief.woff") format('woff');
 }
 
 .text-black {
@@ -1036,25 +996,7 @@ video {
   color: #F1F6E9;
 }
 
-@media (min-width: 640px) {
-  .sm\:h-md {
-    height: 76px;
-  }
-
-  .sm\:w-md {
-    width: 76px;
-  }
-
-  .sm\:w-full {
-    width: 100%;
-  }
-}
-
 @media (min-width: 768px) {
-  .md\:static {
-    position: static;
-  }
-
   .md\:absolute {
     position: absolute;
   }
@@ -1102,10 +1044,6 @@ video {
 
   .md\:mt-6 {
     margin-top: 1.5rem;
-  }
-
-  .md\:block {
-    display: block;
   }
 
   .md\:flex {
@@ -1176,8 +1114,8 @@ video {
     justify-content: center;
   }
 
-  .md\:gap-\[30px\] {
-    gap: 30px;
+  .md\:gap-\[15px\] {
+    gap: 15px;
   }
 
   .md\:place-self-auto {
@@ -1232,19 +1170,11 @@ video {
     display: none;
   }
 
-  .lg\:max-w-sm {
-    max-width: 24rem;
-  }
-
   .lg\:grid-cols-3 {
     grid-template-columns: repeat(3, minmax(0, 1fr));
   }
 
   .lg\:grid-rows-1 {
     grid-template-rows: repeat(1, minmax(0, 1fr));
-  }
-
-  .lg\:place-items-start {
-    place-items: start;
   }
 }
