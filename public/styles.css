@@ -662,6 +662,10 @@ video {
   height: fit-content;
 }
 
+.h-btn {
+  height: 48px;
+}
+
 .max-h-\[660px\] {
   max-height: 660px;
 }
@@ -713,6 +717,14 @@ video {
 
 .w-screen {
   width: 100vw;
+}
+
+.w-signup-btn {
+  width: 179px;
+}
+
+.w-shop-btn {
+  width: 203px;
 }
 
 .w-\[422px\] {
@@ -829,6 +841,10 @@ video {
 
 .border-b-8 {
   border-bottom-width: 8px;
+}
+
+.border-b-12 {
+  border-bottom-width: 12px;
 }
 
 .border-black {
@@ -954,12 +970,12 @@ video {
 
 .text-black {
   --tw-text-opacity: 1;
-  color: rgb(0 0 0 / var(--tw-text-opacity));
+  color: #2A3640;;
 }
 
 .text-white {
   --tw-text-opacity: 1;
-  color: rgb(255 255 255 / var(--tw-text-opacity));
+  color: #F1F6E9;
 }
 
 @media (min-width: 640px) {
