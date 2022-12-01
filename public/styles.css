@@ -529,6 +529,10 @@ video {
   bottom: 1.75rem;
 }
 
+.bottom-drop {
+  bottom: 7.3rem;
+}
+
 .left-0 {
   left: 0px;
 }
