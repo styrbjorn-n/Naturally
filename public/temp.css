@@ -45,6 +45,10 @@
     line-height: 24px;
   }
   
+  .border-b-12 {
+    height: 12px;
+    } 
+  
   @font-face {
     font-family: "Aileron Regular";
     src: url("/public/fonts/Aileron.woff") format('woff');
